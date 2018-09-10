@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/",
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "tslint-language-service",
+        "ignoreDefinitionFiles": true
+      }
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
